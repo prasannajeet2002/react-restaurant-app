@@ -1,0 +1,22 @@
+.card-container{
+    height:350px;
+    width: 350px;
+    background-color:rgb(250, 249, 247);
+    border : 2px solid rgb(247, 231, 231);
+    /* border-radius :10px; */
+    margin: 0rem 1rem;
+}
+.card-body{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    margin: auto;
+}
+.card-body .title{
+    text-transform:capitalize;
+    font-size:1.5rem;
+}
+.card-container img{
+    height:220px;
+    width:320px;
+}
